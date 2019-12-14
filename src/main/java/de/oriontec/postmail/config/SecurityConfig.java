@@ -1,4 +1,4 @@
-package com.baykalsoft.postmail.config;
+package de.oriontec.postmail.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

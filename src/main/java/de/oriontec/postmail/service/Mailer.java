@@ -1,6 +1,6 @@
-package com.baykalsoft.postmail.service;
+package de.oriontec.postmail.service;
 
-import com.baykalsoft.postmail.persistence.model.Account;
+import de.oriontec.postmail.persistence.model.Account;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -62,7 +62,7 @@ public class Mailer {
             }
         });
         Message msg = new MimeMessage(session);
-        msg.setFrom(new InternetAddress("info@baykalsoft.com", false));
+        msg.setFrom(new InternetAddress(smtpUser, false));
 
         msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(account.getEmail()));
         msg.setSubject(subject);

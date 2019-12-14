@@ -1,4 +1,4 @@
-package com.baykalsoft.postmail.persistence.model;
+package de.oriontec.postmail.persistence.model;
 
 import javax.persistence.*;
 import java.util.Date;

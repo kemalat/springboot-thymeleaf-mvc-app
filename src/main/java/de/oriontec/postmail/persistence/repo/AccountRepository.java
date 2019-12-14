@@ -1,6 +1,6 @@
-package com.baykalsoft.postmail.persistence.repo;
+package de.oriontec.postmail.persistence.repo;
 
-import com.baykalsoft.postmail.persistence.model.Account;
+import de.oriontec.postmail.persistence.model.Account;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

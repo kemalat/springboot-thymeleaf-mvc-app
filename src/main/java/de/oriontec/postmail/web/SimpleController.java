@@ -1,8 +1,8 @@
-package com.baykalsoft.postmail.web;
+package de.oriontec.postmail.web;
 
-import com.baykalsoft.postmail.persistence.model.Account;
-import com.baykalsoft.postmail.persistence.repo.AccountRepository;
-import com.baykalsoft.postmail.service.Mailer;
+import de.oriontec.postmail.persistence.model.Account;
+import de.oriontec.postmail.persistence.repo.AccountRepository;
+import de.oriontec.postmail.service.Mailer;
 import com.google.common.hash.Hashing;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;

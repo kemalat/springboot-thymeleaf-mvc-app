@@ -1,7 +1,7 @@
-package com.baykalsoft.postmail.web;
+package de.oriontec.postmail.web;
 
-import com.baykalsoft.postmail.web.exception.AccountIdMismatchException;
-import com.baykalsoft.postmail.web.exception.AccountNotFoundException;
+import de.oriontec.postmail.web.exception.AccountIdMismatchException;
+import de.oriontec.postmail.web.exception.AccountNotFoundException;
 import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpHeaders;
